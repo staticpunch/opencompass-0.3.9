@@ -58,8 +58,8 @@ configs_8b_auto = [
     ("/mnt/md0data/hiennm/logits/automerger/results/sythetic/llama-code-8b/merge-code-8b-u55", "IC-8b-u55"),
 ]
 
-model_configs = configs_8b_ties + configs_8b_auto
-# model_configs = configs_3b_ties + configs_3b_auto
+# model_configs = configs_8b_ties + configs_8b_auto
+model_configs = configs_3b_ties + configs_3b_auto
 
 models = [
     dict(

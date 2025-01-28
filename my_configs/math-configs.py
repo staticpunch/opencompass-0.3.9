@@ -91,7 +91,7 @@ configs_8b_auto = [
 ]
 
 
-model_configs = configs_8b_ties + configs_8b_auto
+# model_configs = configs_8b_ties + configs_8b_auto
 model_configs = configs_3b_ties + configs_3b_auto
 
 models = [
