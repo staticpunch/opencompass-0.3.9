@@ -32,6 +32,7 @@ datasets = sum([dataset for dataset, name in dataset_configs], [])
 configs = [
     ("/mnt/md0data/hiennm/logits/models/experts/llama-3.2-3b-wizard-expert-code/checkpoint-153", "code100k-3b"),
     ("/mnt/md0data/hiennm/logits/models/experts/llama-3.2-3b-wizard-expert-code-50k", "code50k-3b"),
+    ("/mnt/md0data/hiennm/logits/models/experts/llama-3.2-3b-wizard-evolcode-66k/checkpoint-84", "code66k-3b"),
     ("/mnt/md0data/hiennm/logits/models/llama-3.2-3b-wizard", "instruct-3b"),
     
 ]
